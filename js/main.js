@@ -168,7 +168,7 @@ CHOP.exitSplit = function(toBeApplied) {
 CHOP.gameOver = function(playerNumber) {
 
 	CHOP.game
-		.html("Game Over</br>Player " + playerNumber + " Wins")
+		.html("Game Over</br>Player " + playerNumber + " Wins" +"<a href=\"/\">Play Again</a>")
 		.addClass("gameOver");
 };
 
