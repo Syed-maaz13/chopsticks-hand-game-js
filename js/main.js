@@ -168,7 +168,7 @@ CHOP.exitSplit = function(toBeApplied) {
 CHOP.gameOver = function(playerNumber) {
 
 	CHOP.game
-		.html("Game Over</br>Player " + playerNumber + " Wins" +"<a href=\"/\">Play Again</a>")
+		.html("Game Over</br>Player " + playerNumber + " Wins"+"<br>"+"<a href=\"https://syed-maaz13.github.io/chopsticks-hand-game-js/">Play Again</a>")
 		.addClass("gameOver");
 };
 
